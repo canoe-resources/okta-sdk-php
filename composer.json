@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "php": "^7.3",
+        "php": "^7.2",
         "psr/http-message": "^1.0",
         "php-http/client-common": "^2.1.0",
         "php-http/httplug": "^2.2.0",
@@ -53,5 +53,7 @@
         ],
         "generate-resources": "cd ./openapi && npm run generator",
         "fix-code": "phpcbf ."
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
